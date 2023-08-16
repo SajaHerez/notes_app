@@ -1,17 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:notes_app/data/controller/task_provider.dart';
 import 'package:provider/provider.dart';
-import '../../../utilities/constant/pathes.dart';
 import '../../../utilities/style/appColors.dart';
-import '../../../utilities/style/spaces.dart';
-import '../../../utilities/style/textStyle.dart';
 import '../../widgets/custom_app_bar.dart';
-import '../../widgets/custom_list_tile.dart';
 import '../../widgets/custom_model_sheet.dart';
 import 'home_body.dart';
 
 class HomeScreen extends StatefulWidget {
-  HomeScreen({super.key});
+  const HomeScreen({super.key});
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();

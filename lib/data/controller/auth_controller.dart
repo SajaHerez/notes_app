@@ -1,4 +1,4 @@
-import 'package:dio/dio.dart';
+
 import 'package:flutter/material.dart';
 import 'package:notes_app/DI/locater.dart';
 import 'package:notes_app/data/api/Endpoints.dart';

@@ -1,4 +1,4 @@
-import 'package:notes_app/DI/locater.dart';
+
 import 'package:notes_app/data/model/user.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

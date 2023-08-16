@@ -5,6 +5,7 @@ import 'package:notes_app/ui/widgets/scale_btn.dart';
 import '../../utilities/style/appColors.dart';
 import '../../utilities/style/textStyle.dart';
 
+// ignore: must_be_immutable
 class CustomListTile extends StatelessWidget {
   CustomListTile(
       {super.key,

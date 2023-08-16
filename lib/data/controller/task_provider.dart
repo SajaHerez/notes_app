@@ -54,9 +54,9 @@ class TaskProvider with ChangeNotifier {
       tasks.clear();
       final re = TaskResponse.fromJson(response.data);
       tasks = re.tasks;
-      // tasks.map(
-      //   (e) => print(e.title),
-      // );
+      tasks.map(
+        (e) => print(e.title),
+      );
       _filtering();
       _setState(NotifierState.loaded);
       notifyListeners();

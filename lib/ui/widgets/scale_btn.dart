@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../utilities/style/appColors.dart';
 
+// ignore: must_be_immutable
 class ScaleButtom extends StatelessWidget {
   ScaleButtom(
       {super.key,

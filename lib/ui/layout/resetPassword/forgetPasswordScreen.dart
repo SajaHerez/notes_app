@@ -9,6 +9,7 @@ import '../../widgets/customButton.dart';
 import '../../widgets/customTextField.dart';
 import '../../widgets/customTitle.dart';
 
+// ignore: must_be_immutable
 class ForgetPasswordScreen extends StatelessWidget {
   ForgetPasswordScreen({super.key});
   PasswordController passwordController = getIt<PasswordController>();

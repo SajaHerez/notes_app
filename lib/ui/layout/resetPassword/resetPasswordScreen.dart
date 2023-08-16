@@ -11,6 +11,7 @@ import '../../widgets/customTextField.dart';
 import '../../widgets/customTitle.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
 
+// ignore: must_be_immutable
 class ResetPasswordScreen extends StatelessWidget {
   ResetPasswordScreen({super.key});
   final pinCodeController = TextEditingController();

@@ -9,6 +9,7 @@ class TaskResponse {
   }
   Map<String, dynamic> toJson() {
     Map<String, dynamic> data = Map();
+    // ignore: unnecessary_null_comparison
     if (tasks != null) {
       data['data'] = tasks.map((v) => v.toJson()).toList();
     }
