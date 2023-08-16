@@ -27,6 +27,7 @@ class DioExceptions implements Exception {
           break;
         }
         message = "Unexpected error occurred";
+        print('Error message : ${dioError.message}');
         break;
       default:
         message = "Something went wrong";

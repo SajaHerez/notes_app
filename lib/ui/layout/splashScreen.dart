@@ -31,7 +31,8 @@ class _SplashScreenState extends State<SplashScreen> {
     } else if (isLogged) {
       RoutingUtil.pushReplacement(RouterName.homeScreen);
     } else {
-      RoutingUtil.pushReplacement(RouterName.loginScreen);
+      //  RoutingUtil.pushReplacement(RouterName.loginScreen);
+      RoutingUtil.pushReplacement(RouterName.homeScreen);
     }
   }
 

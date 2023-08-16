@@ -22,15 +22,15 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context) => TaskProvider(),
       child: MaterialApp(
-          title: 'note app',
-          debugShowCheckedModeBanner: false,
-          navigatorKey: RoutingUtil.navigatorKey,
-          onGenerateRoute: Routers.onGenerateRoute,
-          initialRoute: RouterName.splashScreen,
-          scaffoldMessengerKey: MySnackBar.scaffoldKey,
-          theme: ThemeData(scaffoldBackgroundColor: AppColors.simeBlack),
-          //home: HomeScreen()
-          ),
+        title: 'note app',
+        debugShowCheckedModeBanner: false,
+        navigatorKey: RoutingUtil.navigatorKey,
+        onGenerateRoute: Routers.onGenerateRoute,
+        initialRoute: RouterName.splashScreen,
+        scaffoldMessengerKey: MySnackBar.scaffoldKey,
+        theme: ThemeData(scaffoldBackgroundColor: AppColors.simeBlack),
+        //home: HomeScreen()
+      ),
     );
   }
 }

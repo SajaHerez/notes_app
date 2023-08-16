@@ -39,19 +39,17 @@ class CustomAppBar extends StatelessWidget {
                 ),
               )),
           IconButton(
-              iconSize: 74,
-              splashColor: AppColors.simeGreen.withOpacity(.3),
-              onPressed: () {
-                getIt<RegistrationController>().logout();
-              },
-              icon: 
-               Image.asset(
-                "${Pathes.iconPath}noteX74${Extension.png}",
-                fit: BoxFit.cover,
-                height: 74,
-                width: 74,
-              )
-              )
+            iconSize: 40,
+            splashColor: AppColors.simeGreen.withOpacity(.3),
+            onPressed: () {
+              getIt<RegistrationController>().logout();
+            },
+            icon: const Icon(
+              Icons.logout_rounded,
+              size: 25,
+              color: AppColors.simeGreen,
+            ),
+          )
         ],
       ),
     );
